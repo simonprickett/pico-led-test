@@ -20,7 +20,7 @@ while True:
         sleep(.2)
         led.value(1)
 
-    for led in leds[::-1]:
+    for led in reversed(leds):
         led.value(1)
         sleep(.2)
         led.value(0)
